@@ -1,0 +1,42 @@
+.jcsb{
+	justify-content: space-between;
+}
+.jcsa{
+	justify-content: space-around;
+}
+.aic{
+	align-items: center;
+}
+.tac{
+	text-align: center;
+}
+.tar{
+	text-align: right;
+}
+.tal{
+	text-align: left;
+}
+.m0a{
+	margin: 0 auto;
+}
+.dn{
+	display: none;
+}
+.db{
+	display: block;
+}
+.a_none{
+	display: block;
+}
+.a-block{
+	display: none;
+}
+.a-flex{
+	display: none;
+}
+.pos-r{
+	position: relative;
+}
+.pos-a{
+	position: absolute;
+}

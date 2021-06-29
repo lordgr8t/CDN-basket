@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+body{
+	background: #1F1F1F;
+	font-family: 'Roboto', sans-serif;
+}
+
+.basket_btn img{
+	cursor: pointer;
+}
+.basket_body{
+	background: #474747;
+	margin: 0 auto;
+	max-width: 660px;
+	height: 1000px; /*100%*/
+	border-radius: 20px;
+	display: none;
+	position: relative;
+	z-index: 100;
+	padding: 35px 110px;
+}
+.bg_4_basket{
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	display: none;
+}
+.db_basket{
+	display: block;
+	animation-name: db_basket;
+	animation-duration: 0.7s;
+}
+@keyframes db_basket{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.db_bg_basket{
+	display: block;
+	animation-name: db_bg_basket;
+	animation-duration: 0.3s;
+}
+@keyframes db_bg_basket{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.basket_header .line{
+	background: #C4C4C4;
+	height: 1px;
+	max-width: 137px;
+	width: 70%;
+}
+.basket_header h3{
+	font-size: 19px;
+	font-weight: 300;
+	color: #fff;
+	margin: 0;
+}
