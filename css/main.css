@@ -5,6 +5,7 @@
 body{
 	background: #1F1F1F;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;	
 }
 
 .basket_btn img{
@@ -20,6 +21,8 @@ body{
 	position: relative;
 	z-index: 100;
 	padding: 35px 110px;
+	overflow-y: hidden;
+	overflow-x: hidden; 
 }
 .bg_4_basket{
 	width: 100vw;
@@ -68,3 +71,148 @@ body{
 	color: #fff;
 	margin: 0;
 }
+.allsummstyle{
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+	margin: 20px 0;
+}
+
+.btn{
+	background: linear-gradient(263.18deg, #1F1F1F -6.04%, rgba(196, 196, 196, 0) 98.14%);
+	border-radius: 3px;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 8px 15px;
+	display: block;
+	margin: 0 auto;
+	transition: 1s;	
+}
+.btn:hover{
+	background: #1F1F1F;
+	color: #fff;
+	transition: 1s;
+}
+.input .title{
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+}
+.input input{
+	width: 100%;
+	background: rgba(255, 255, 255, 0.37);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	height: 25px;
+	border: none;
+	color: #fff;
+	font-weight: 300;
+	padding-left: 10px;
+	margin: 12px 0;
+}
+.inputphone .checker{
+	background: rgba(255, 255, 255, 0.37);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	height: 25px;
+	border: none;
+	color: #fff;
+	font-weight: 300;
+	margin-left: 10px;
+	font-size: 14px;
+	width: 31%;
+	text-align: center;
+	padding-top: 1px;
+	cursor: pointer;
+}
+.info_order{
+	width: 100%;
+	text-align: center;
+	color: #75FE72;
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+.order textarea{
+	width: 100%;
+	background: rgba(255, 255, 255, 0.37);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	border: none;
+	color: #fff;
+	font-weight: 300;
+	padding-left: 10px;
+	margin-top: 12px;
+}
+.deliver .deliv{
+	max-width: 210px;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.deliver .deliv h3{
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+	margin: 0;
+}
+.deliver .deliv p{
+	font-size: 11px;
+	font-weight: 300;
+	color: #fff;
+	max-width: 180px;
+}
+.infodeliver{
+	width: 100%;
+	text-align: center;
+	color: #75FE72;
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+
+
+.activedel, .deliver .deliv:hover{
+	background: linear-gradient(263.18deg, #1F1F1F -6.04%, rgba(196, 196, 196, 0) 98.14%);
+	border-radius: 3px;
+	padding: 0px 15px;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+/*_______HTMLs_______*/
+
+.basket_item{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background: #FEFAFA;
+	height: 70px;
+	border-radius: 12px;
+	margin-bottom: 15px;
+}
+.basket_item h6{
+	font-weight: 300;
+	font-size: 14px;
+	max-width: 145px;
+	margin: 0;
+}
+
+.basket_item .colvo .num{
+	color: #fff;
+	background: #545454;
+	height: 23px;
+	width: 38px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+.basket_item .price{
+	/*margin-right: 10px;*/
+}
+/*_______HTMLs_______*/
